@@ -1,0 +1,49 @@
+.left {
+  background-color: #fff;
+  left: 0;
+}
+
+.right {
+  background-color: rgb(219, 80, 10);
+  right: 0;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  overflow-x: hidden;
+}
+
+.logo {
+  font-size: 1.5em;
+  color: rgb(219, 80, 10);
+  font-weight: bold;
+}
+
+.list-item {
+  display: inline;
+  margin-right: 1em;
+}
+
+.navbar {
+  display: inline;
+  margin-top: 20px;
+  margin-left: 8em;
+  margin-right: 6em;
+}
+
+.inner-content {
+  /* align-items: center;
+  text-align: center; */
+  z-index: 1;
+  top: 25%;
+  left: 20%;
+  position: absolute;
+}
+
+.summary {
+  font-weight: bold;
+  font-size: 2em;
+  font-family: sans-serif;
+}
